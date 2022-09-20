@@ -112,14 +112,6 @@ button {
   background-color: orange;
 }
 
-@media (max-width: 500px) {
-  body {
-    display: relative;
-    width: 360px;
-    height: 640px;
-  }
-}
-
 footer {
   width: 100%;
   left: 0;
@@ -145,4 +137,12 @@ a {
 
 .copyrs {
   margin-bottom: 2%;
+}
+
+@media (max-width: 500px) {
+  body {
+    display: relative;
+    width: 360px;
+    height: 640px;
+  }
 }
