@@ -1,0 +1,148 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+input {
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+
+body {
+  background-color: rgb(230, 230, 235);
+}
+header {
+  padding: 5%;
+}
+h1 {
+  text-align: center;
+}
+
+form {
+  scale: 1.3;
+
+  text-align: center;
+  margin: auto;
+}
+
+i {
+  position: relative;
+  left: -60px;
+  bottom: -55px;
+  scale: 1.5;
+  color: orange;
+}
+
+nav {
+  font-size: 105%;
+  text-align: right;
+  width: 100%;
+  background-color: #ffffff;
+  display: inline;
+  padding-left: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  z-index: 5;
+  position: fixed;
+  top: 0;
+  right: 0;
+  overflow: hideen;
+}
+
+.nav-link {
+  font-weight: bold;
+  text-decoration: none;
+  color: #000000;
+  margin: 2%;
+  overflow: hidden;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+img {
+  left: 0;
+  width: 20%;
+  position: fixed;
+}
+
+main {
+  top: 5%;
+  padding: 5%;
+  margin: 10%;
+  display: block;
+  overflow: hideen;
+}
+
+.samankidukan {
+  display: flex;
+  width: 100%;
+}
+
+.saman {
+  display: flex;
+  background-color: #ffffff;
+  flex-direction: column;
+  border: 1px solid gray;
+  width: 33%;
+  margin: 3%;
+  align-items: center;
+  text-align: center;
+}
+
+.item {
+  width: 100%;
+  font-size: 120%;
+  font-weight: bold;
+
+  background-color: lightgray;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button {
+  background-color: orange;
+
+  transform: scale(1.3);
+}
+
+.button {
+  background-color: orange;
+}
+
+@media (max-width: 500px) {
+  body {
+    display: relative;
+    width: 360px;
+    height: 640px;
+  }
+}
+
+footer {
+  width: 100%;
+  left: 0;
+  right: 0;
+  background-color: gray;
+  color: #ffffff;
+}
+
+footer div {
+  margin: 2%;
+  text-align: right;
+}
+
+.rar {
+  margin-top: 2%;
+}
+
+a {
+  text-decoration: none;
+  color: lightgray;
+  font-weight: bold;
+}
+
+.copyrs {
+  margin-bottom: 2%;
+}
